@@ -12,7 +12,6 @@ nav{
     min-height: 8vh;
     background-color: #EEEEEE;
     font-family: 'Poppins', sans-serif;
-    position: sticky;
     
 }
 
@@ -158,10 +157,10 @@ nav{
     
 }
 #bio h1{
-    font-family: 'Poppins', sans-serif;
+   font-family: 'Courgette', cursive;
     margin: 80px 0 0 10px;
     color:#D87F81;
-    text-transform: uppercase;
+
     font-size: 50px;
    
     
