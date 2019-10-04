@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #EEEEEE;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%; 
+    margin: 5px;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}.nav-links a:hover{
+    color: #AE6378;
+}.nav-links a:active{
+    color:white;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color:black;
+    margin: 5px;
+}
+
+
+@media screen and (max-width:1024px){
+    .nav-links{
+    width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top:8vh;
+        background-color: #EEEEEE; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(150%);
+        transition: transform 0.5s ease-in;
+        
+    }
+   
+    
+    .burger{
+        display: block;
+    }
+}
+
+.nav-links.active{
+    transform: translateX(0%);
+    z-index: 10000;
+    
+}
+/*------------*/
+
+
+#home{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(-45deg,#AE6378,#D87F81,#EAB595);
+    background-size: 200% 200%;
+   animation: Gradient 5s ease infinite;
+    
+}@-webkit-keyframes Gradient{
+    0%{
+        background-position: 0% 50%
+    }
+    50%{
+        background-position: 100% 50% 
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}
+#home img{
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+    margin: 70px 37.5% 70px 37.5%;
+    
+}
+
+
+#bio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bio-pic{
+    
+    margin: 30px 0 0 20px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#bio-txt{
+    width: 70%;
+    background: #EEEEEE;
+    margin:-130px 15% 0 15%;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+#bio-txt hr{
+    width: 70%;
+    height: 0.1px;
+    background-color: #D87F81;
+    margin: auto;
+    align-items: center;
+}
+#bio img{
+    width: 30%;
+    height: auto;
+    border-radius: 60%;
+    margin: 30px;
+    
+}
+#bio h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 80px 0 0 10px;
+    color:#D87F81;
+    text-transform: uppercase;
+    font-size: 50px;
+   
+    
+}
+#bio p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 40px;
+}
+#bio a i{
+    font-size: 40px;
+    color: #D87F81;
+    margin: 1em;
+}
+#bio a i:hover{
+    color: black;
+}#bio a i:active{
+    color: white;
+}
+
+
+
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: #BDBDBD;
+    border-top: 2px solid #EAB595;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#footer p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #262626;
+    margin: 15px;
+    display: block;
+}
+#footer a{
+    color: #262626;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: #D87F81;
+}
+
+.texto-vertical-3 {
+  writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+
+background-color:  rgb(9,101,120);
+background-color:  rgb(17,40,90); fuerte
+background-color:  rgb(254,152,144);  claro
+background-color:  rgb(194, 7, 87);  color fuerte
+font-family: 'Notable', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Monoton', cursive;
