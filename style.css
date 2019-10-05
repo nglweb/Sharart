@@ -182,14 +182,95 @@ nav{
     color: white;
 }
 
+#contacto{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(-45deg,#D87F81,#EAB595);
+    background-size: 200% 200%;
+   animation: Gradient 5s ease infinite;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.btnimp3{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #262626;
+    border-radius: 20px;
+    border: 2px solid #262626;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    text-transform: uppercase;
+    
+}
+.btnimp3:hover{
+    background: linear-gradient(-45deg,#D87F81,#EAB595);
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+    
+}
+.barraform{
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.card{
+    background: #EEEEEE;
+    border: none;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 18rem;
+    height: 400px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.card i{
+    
+    font-size: 50px;
+    margin: 25px 0 20px 0;
+    color: #262626;
+}.card i:hover{
+    color:#D87F81;
+}
+.card ul{
+    list-style: none;
+    padding: 0;
+}
+.card-body{
+    width: 100%;
+    padding: 0px;
+}
+
+.card-title{
+     line-height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #262626;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    margin: 40px;
+    display: block;
+   
+}
 
 
 
 #footer{
     width: 100%;
     height: 50px;
-    background-color: #BDBDBD;
-    border-top: 2px solid #EAB595;
+    background: linear-gradient(-45deg,#D87F81,#EAB595);
+    background-size: 200% 200%;
+    border-top: 2px solid #262626;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -209,7 +290,7 @@ nav{
     text-decoration: none;
 }
 #footer a:hover{
-    color: #D87F81;
+    color: white;
 }
 
 .texto-vertical-3 {
